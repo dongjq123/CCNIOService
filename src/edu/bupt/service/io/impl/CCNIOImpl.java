@@ -2,7 +2,6 @@ package edu.bupt.service.io.impl;
 
 import edu.bupt.service.io.CCNIOManage;
 import org.ccnx.ccn.CCNHandle;
-import org.ccnx.ccn.config.ConfigurationException;
 import org.ccnx.ccn.io.CCNFileInputStream;
 import org.ccnx.ccn.io.CCNFileOutputStream;
 import org.ccnx.ccn.io.RepositoryFileOutputStream;
