@@ -57,6 +57,7 @@ public class CCNIOImpl implements CCNIOManage {
         try {
             ContentName cn = ContentName.fromURI(contentname);
             RepositoryFileOutputStream ros = new RepositoryFileOutputStream(cn, ccnHandle);
+            return ros;
         } catch (MalformedContentNameStringException e) {
             e.printStackTrace();
         } catch (IOException e) {
